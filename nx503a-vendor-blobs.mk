@@ -41,6 +41,19 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/zte/nx503a/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/zte/nx503a/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/zte/nx503a/proprietary/bin/cnd:system/bin/cnd \
+    vendor/zte/nx503a/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/zte/nx503a/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/zte/nx503a/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/zte/nx503a/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/zte/nx503a/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/zte/nx503a/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/zte/nx503a/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/zte/nx503a/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/zte/nx503a/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/zte/nx503a/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/zte/nx503a/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/zte/nx503a/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/zte/nx503a/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/zte/nx503a/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/zte/nx503a/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -83,10 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/lib/libchromatix_imx214_liveshot.so:system/lib/libchromatix_imx214_liveshot.so \
     vendor/zte/nx503a/proprietary/lib/libchromatix_imx220_liveshot.so:system/lib/libchromatix_imx220_liveshot.so \
     vendor/zte/nx503a/proprietary/lib/libchromatix_t4k35_liveshot.so:system/lib/libchromatix_t4k35_liveshot.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/zte/nx503a/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/zte/nx503a/proprietary/lib/liblocSDK4.so:system/lib/liblocSDK4.so \
     vendor/zte/nx503a/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
