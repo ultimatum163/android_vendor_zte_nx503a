@@ -340,7 +340,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/zte/nx503a/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/zte/nx503a/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/zte/nx503a/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/zte/nx503a/proprietary/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/zte/nx503a/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/zte/nx503a/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/zte/nx503a/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
