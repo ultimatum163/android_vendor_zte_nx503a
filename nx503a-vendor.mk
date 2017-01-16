@@ -447,7 +447,6 @@ PRODUCT_PACKAGES += \
     liblisten \
     libtime_genoff \
     libTimeService \
-    qcrilmsgtunnel \
     shutdownlistener \
     TimeService \
     qcnvitems \
