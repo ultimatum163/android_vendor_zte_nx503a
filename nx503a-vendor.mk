@@ -327,6 +327,7 @@ PRODUCT_COPY_FILES += \
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
+    vendor/zte/nx503a/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/zte/nx503a/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/zte/nx503a/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/zte/nx503a/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -447,6 +448,7 @@ PRODUCT_PACKAGES += \
     liblisten \
     libtime_genoff \
     libTimeService \
+    qcrilmsgtunnel \
     shutdownlistener \
     TimeService \
     qcnvitems \
